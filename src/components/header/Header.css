@@ -1,0 +1,9 @@
+.header {
+    padding: 5vh;
+    background-color: #383e56;
+}
+
+.header-title {
+    font-size: 40px;
+    color: white;
+}

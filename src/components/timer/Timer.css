@@ -1,0 +1,18 @@
+.timer-main {
+    margin: 5;
+    background-color: #f69e7b;
+    padding: 15vh;
+}
+
+.timer-actual {
+    font-size: 100px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 2%;
+}
+
+Button {
+    padding: 5%;
+}
