@@ -7,7 +7,7 @@ import sound from '../../Bugle_Tune.mp3'
 
 var isStarted = false;
 var isPaused = false;
-var timeRemaining = 3;
+var timeRemaining = 1500;
 var resetClicked = false;
 var timerID = 0;
 var audio = new Audio(sound);
