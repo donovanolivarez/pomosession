@@ -1,16 +1,14 @@
 import React from 'react';
 import './Header.css';
 import Grid from '@material-ui/core/Grid';
-import AlarmIcon from '@material-ui/icons/Alarm';
 import AppBar from '@material-ui/core/AppBar';
-import Box from '@material-ui/core/Box';
-import Button from '@material-ui/core/Button';
 import DoneAllIcon from '@material-ui/icons/DoneAll';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import IconButton from '@material-ui/core/IconButton';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Typography from '@material-ui/core/Typography';
 import Toolbar from '@material-ui/core/Toolbar';
+import Tooltip from '@material-ui/core/Tooltip';
 
 function Header() {
     return (
@@ -18,21 +16,25 @@ function Header() {
             <Toolbar>
                 <Grid justify="space-between"
                     container
-                    spacing={12}
+                    spacing={5}
                 >
                     <Grid item>
                         <Typography variant="h4">
-                            PomoSession <DoneAllIcon fontSize="Large"/>
+                            PomoSession <DoneAllIcon fontSize="large" />
                         </Typography>
                     </Grid>
 
                     <Grid item>
-                        <IconButton href="https://github.com/donovanolivarez" color="inherit">
-                            <GitHubIcon fontSize="Large"/>
-                        </IconButton>
-                        <IconButton href="https://www.linkedin.com/in/donovan-olivarez-571108191/" color="inherit">
-                            <LinkedInIcon fontSize="Large"/>
-                        </IconButton>
+                        <Tooltip title="Check out my github.">
+                            <IconButton href="https://github.com/donovanolivarez" color="inherit">
+                                <GitHubIcon fontSize="large" />
+                            </IconButton>
+                        </Tooltip>
+                        <Tooltip title="See my LinkedIn page.">
+                            <IconButton href="https://www.linkedin.com/in/donovan-olivarez-571108191/" color="inherit">
+                                <LinkedInIcon fontSize="large" />
+                            </IconButton>
+                        </Tooltip>
                     </Grid>
 
                 </Grid>

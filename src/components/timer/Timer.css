@@ -8,10 +8,18 @@
     font-size: 6vw;
 }
 
+.timer-adjust {
+    align-items: center;
+}
 .btn {
     display: inline-block;
     padding: 2%;
 }
+
+.btn-adjust{
+    padding: 2%;
+}
+
 
 Button {
     padding: 5%;
