@@ -1,4 +1,8 @@
 .info-main {
-    background-color: #d4b5b0;
+    background-color: #0f4c75;
     padding: 1%;
+}
+
+.info-description {
+    font-size: 20px;
 }

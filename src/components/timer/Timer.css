@@ -1,11 +1,11 @@
 .timer-main {
     margin: 5;
-    background-color: #f69e7b;
+    background-color: #feceab;
     padding: 15vh;
 }
 
 .timer-actual {
-    font-size: 100px;
+    font-size: 6vw;
 }
 
 .btn {

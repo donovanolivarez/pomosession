@@ -1,9 +1,15 @@
 .header {
+    flex-grow: 1;
     padding: 5vh;
-    background-color: #383e56;
+    background-color: #cf1b1b;
 }
 
 .header-title {
+    margin-right: ;
     font-size: 40px;
     color: white;
+}
+
+.contact-button {
+    align-content: space-between;
 }
