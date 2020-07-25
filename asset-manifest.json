@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pomosession/static/css/main.c7cb8223.chunk.css",
+    "main.js": "/pomosession/static/js/main.3d70c4fb.chunk.js",
+    "main.js.map": "/pomosession/static/js/main.3d70c4fb.chunk.js.map",
+    "runtime-main.js": "/pomosession/static/js/runtime-main.08198af2.js",
+    "runtime-main.js.map": "/pomosession/static/js/runtime-main.08198af2.js.map",
+    "static/js/2.73ab5bd6.chunk.js": "/pomosession/static/js/2.73ab5bd6.chunk.js",
+    "static/js/2.73ab5bd6.chunk.js.map": "/pomosession/static/js/2.73ab5bd6.chunk.js.map",
+    "index.html": "/pomosession/index.html",
+    "precache-manifest.a1d9f47212c15fd8769b2a47a9bd1994.js": "/pomosession/precache-manifest.a1d9f47212c15fd8769b2a47a9bd1994.js",
+    "service-worker.js": "/pomosession/service-worker.js",
+    "static/css/main.c7cb8223.chunk.css.map": "/pomosession/static/css/main.c7cb8223.chunk.css.map",
+    "static/js/2.73ab5bd6.chunk.js.LICENSE.txt": "/pomosession/static/js/2.73ab5bd6.chunk.js.LICENSE.txt",
+    "static/media/Bugle_Tune.mp3": "/pomosession/static/media/Bugle_Tune.a514170e.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08198af2.js",
+    "static/js/2.73ab5bd6.chunk.js",
+    "static/css/main.c7cb8223.chunk.css",
+    "static/js/main.3d70c4fb.chunk.js"
+  ]
+}
